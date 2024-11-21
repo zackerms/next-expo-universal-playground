@@ -1,6 +1,9 @@
-import "@/styles/globals.css";
 import type { AppProps } from "next/app";
+import { TamaguiProvider, View } from '@tamagui/core'
+import config from '../../tamagui.config'
 
 export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />;
+  return <TamaguiProvider config={config}>
+    <Component {...pageProps} />
+  </TamaguiProvider>
 }
