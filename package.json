@@ -12,7 +12,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@expo/next-adapter": "^6.0.0",
     "@expo/vector-icons": "^14.0.2",
     "@react-navigation/native": "^6.1.18",
     "@tamagui/config": "^1.111.1",
