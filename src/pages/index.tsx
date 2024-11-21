@@ -1,9 +1,5 @@
-import { Text, View } from "tamagui";
+import { Message } from "@/components/Message";
 
 export default function HomeScreen() {
-    return (
-        <View>
-            <Text>Hello from Next</Text>
-        </View>
-    );
+    return <Message />;
 }
